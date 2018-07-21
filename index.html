@@ -1,10 +1,61 @@
+<!doctype html>
 <html>
-<head>
-VideoHub.app
-</head>
-<body>
-Coming Soon
-<br>
-until then please visit <a href="http://www.videohubapp.com/">VideoHubApp.com</a>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Video Hub App</title>
+  </head>
+
+  <style>
+    body {
+      background-color: black;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    span {
+      color: white;
+      display: block;
+      font-family: sans-serif;
+      margin: 10px;
+    }
+    a {
+      color: red;
+      margin-bottom: 20px;
+    }
+    .centered {
+      margin: 5px;
+      padding: 0;
+      position: absolute;
+      text-align: center;
+      top: calc(50vh - 280px);
+      width: calc(100vw - 12px);
+    }
+    .title {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .headline {
+      font-style: italic;
+      margin: 20px;
+    }
+    .os {
+      font-size: 10px;
+      opacity: 0.8;
+    }
+    @media only screen and (max-width: 600px) {
+      iframe {
+        width: 95vw;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="centered">
+      <span class="title">Video Hub App</span>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/_KC9xrsiwZg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <span class="headline">Like YouTube for videos on your PC</span>
+      <span><a href="https://videohubapp.com">Download now</a></span>
+      <span class="os">Windows - Mac - Linux</span>
+    </div>
+  </body>
 </html>
